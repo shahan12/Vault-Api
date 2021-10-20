@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const PostSchema = mongoose.Schema({
   SafeName: {
     type: String,
+    unique: true,
     // required: true,
   },
   Owner: {

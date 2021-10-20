@@ -21,13 +21,15 @@ router.post("/", async (req, res) => {
     Description: req.body.Description,
     Type: req.body.Type,
 
-    secrets: req.body.secrets,
+    //secrets: req.body.secrets,
   });
 
   try {
     const savedPost = await post.save();
+    console.log(savedPost);
     res.json(savedPost);
   } catch (err) {
+    console.log({ message: err });
     res.json({ message: err });
   }
 });
