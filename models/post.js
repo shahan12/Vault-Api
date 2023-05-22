@@ -1,25 +1,18 @@
 const mongoose = require("mongoose");
 
 const PostSchema = mongoose.Schema({
-  SafeName: {
-    type: String,
-    unique: true,
-    // required: true,
-  },
-  Owner: {
-    type: String,
-    // required: true,
-  },
-  Description: {
-    type: String,
-    // required: true,
-  },
-  Type: {
-    type: String,
-    // required: true,
-  },
-  secrets: {
+  label: {
     type: Array,
+    // unique: true,
+    // required: true,
+  },
+  data1: {
+    type: Array,
+    // required: true,
+  },
+  data2: {
+    type: Array,
+    // required: true,
   },
 });
 

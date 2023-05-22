@@ -14,6 +14,9 @@ app.use(bodyParser.json());
 const postRoute = require("./routes/posts");
 app.use("/safes", postRoute);
 
+const pieRoute = require("./routes/pie");
+app.use("/pie", pieRoute);
+
 //Routes
 app.get("/", (req, res) => {
   res.send("we are home");
