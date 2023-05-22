@@ -1,69 +1,20 @@
 {
-  "name": "vault-api",
+  "name": "api-learn",
   "version": "1.0.0",
-  "description": "Personal APIs",
+  "description": "",
   "main": "app.js",
-  "dependencies": {
-    "async": "^1.5.2",
-    "body-parser": "^1.19.0",
-    "buffer-shims": "^1.0.0",
-    "concat-map": "^0.0.1",
-    "cors": "^2.8.5",
-    "core-util-is": "^1.0.3",
-    "diff": "^1.4.0",
-    "dotenv": "^10.0.0",
-    "commander": "^2.3.0",
-    "denque": "^2.1.0",
-    "express": "^4.17.1",
-    "escape-string-regexp": "^1.0.2",
-    "fsevents": "^2.3.2",
-    "growl": "^1.9.2",
-    "es6-promise": "^3.2.1",
-    "glob": "^3.2.11",
-    "ip": "^2.0.0",
-    "isarray": "^1.0.0",
-    "jade": "^0.26.3",
-    "lru-cache": "^2.7.3",
-    "minimatch": "^3.1.2",
-    "minimist": "^0.0.8",
-    "mkdirp": "^0.5.1",
-    "mongoose": "^6.0.10",
-    "mongodb": "^5.5.0",
-    "mongodb-core": "^2.1.20",
-    "nodemon": "^2.0.22",
-    "mongodb-connection-string-url": "^2.6.0",
-    "process-nextick-args": "^1.0.7",
-    "punycode": "^2.3.0",
-    "readable-stream": "^2.2.7",
-    "require_optional": "^1.0.1",
-    "resolve-from": "^2.0.0",
-    "simple-update-notifier": "^1.1.0",
-    "sigmund": "^1.0.1",
-    "socks": "^2.7.1",
-    "smart-buffer": "^4.2.0",
-    "string_decoder": "^1.0.3",
-    "tr46": "^3.0.0",
-    "to-iso-string": "^0.0.2",
-    "undefsafe": "^2.0.5",
-    "util-deprecate": "^1.0.2",
-    "update-mongo": "^0.0.4",
-    "webidl-conversions": "^7.0.0",
-    "whatwg-url": "^11.0.0"
-  },
-  "devDependencies": {
-    "mocha": "^2.5.3"
-  },
   "scripts": {
-    "test": "mocha"
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shahan12/Vault-Api.git"
-  },
-  "author": "Shahan",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shahan12/Vault-Api/issues"
-  },
-  "homepage": "https://github.com/shahan12/Vault-Api#readme"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.22"
+  }
 }
